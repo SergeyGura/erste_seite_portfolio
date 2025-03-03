@@ -11,6 +11,15 @@ html {
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('/fonts/BebasNeueBold.woff2') format('woff2'),
+        url('/fonts/BebasNeueBold.woff') format('woff'),
+        url('/fonts/BebasNeueBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -23,7 +32,55 @@ body {
     padding: 0 250px;
 }
 
-/* Раздел */
+/* Раздел HEADER */
+.header {}
+
+.container__header {
+    background-image: url(..//style/img/bg.png);
+    width: 1440px;
+    height: 768px;
+    margin: 0 auto;
+    padding: 0 250px;
+    padding-top: 41px;
+}
+
+.header__logo {
+    width: 101px;
+    height: 23px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 305px;
+
+}
+
+.header__title {
+    font-family: "BebasNeueBold", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    /* letter-spacing: 0.1em; */
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.header__subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 221px;
+}
+
+.header__scroll-text {
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.34em;
+    text-align: center;
+    color: #fff;
+}
+
+
 /* Раздел "Our Story"/Teil "Our Story"*/
 .story {
     padding: 50px 0;
