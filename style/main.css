@@ -1,5 +1,5 @@
 /* Общие стили/Allgemeine Stile */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Bebas+Neue&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Bebas+Neue&display=swap'); */
 
 html {
     box-sizing: border-box;
@@ -12,11 +12,11 @@ html {
 }
 
 @font-face {
-    font-family: 'BebasNeueBold';
+    font-family: 'Bebas Neue';
     src: url('/fonts/BebasNeueBold.woff2') format('woff2'),
         url('/fonts/BebasNeueBold.woff') format('woff'),
         url('/fonts/BebasNeueBold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -33,11 +33,12 @@ body {
 }
 
 /* Раздел HEADER */
-.header {}
+/* .header {} */
 
 .container__header {
-    background-image: url(..//style/img/bg.png);
-    width: 1440px;
+    background-image: url(../style/img/bg.png);
+    max-width: 1440px;
+    width: 100%;
     height: 768px;
     margin: 0 auto;
     padding: 0 250px;
@@ -54,10 +55,10 @@ body {
 }
 
 .header__title {
-    font-family: "BebasNeueBold", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-size: 60px;
-    /* letter-spacing: 0.1em; */
+    letter-spacing: 0.1em;
     text-align: center;
     color: #fff;
     margin-bottom: 5px;
@@ -126,7 +127,7 @@ body {
     color: #00A4E5;
 }
 
-.story_text {}
+/* .story_text {} */
 
 .story_right {
     display: flex;
