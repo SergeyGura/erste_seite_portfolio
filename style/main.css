@@ -339,11 +339,10 @@ body {
 
 
 
-.services__icon {
-    /* width: 65px;
-    height: 75px; */
-
-}
+/* .services__icon {
+    width: 65px;
+    height: 75px;
+} */
 
 
 
@@ -369,8 +368,8 @@ body {
     color: #48555b;
 }
 
-.services__icon--project {}
+/* .services__icon--project {}
 
 .services__icon--audit {}
 
-.services__icon--factory {}
+.services__icon--factory {} */
