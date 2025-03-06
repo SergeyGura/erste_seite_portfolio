@@ -36,7 +36,7 @@ body {
 /* .header {} */
 
 .container__header {
-    background-image: url(../style/img/bg.png);
+    background: url(../style/img/bg.png);
     max-width: 1440px;
     width: 100%;
     height: 768px;
@@ -373,3 +373,42 @@ body {
 .services__icon--audit {}
 
 .services__icon--factory {} */
+
+
+/* Section CTA */
+.cta {
+    background-image: url(../style/img/cta_bg.png);
+    max-width: 1440px;
+    height: 498px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cta__title {
+    font-weight: 700;
+    font-size: 30px;
+    /* line-height: 36px; */
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #48555b;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-top: 120px;
+    margin-bottom: 35px;
+}
+
+.cta__button {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    font-weight: 700;
+    font-size: 13px;
+    /* letter-spacing: 0.04em; */
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
