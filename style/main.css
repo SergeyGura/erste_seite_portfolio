@@ -126,18 +126,22 @@ body {
 .header__nav-link:nth-child(1) {
     margin-right: 40px;
 }
+
 /* HOME → ABOUT */
 .header__nav-link:nth-child(2) {
     margin-right: 48px;
 }
+
 /* ABOUT → SERVICES */
 .header__nav-link:nth-child(3) {
     margin-right: 42px;
 }
+
 /* SERVICES → WORK */
 .header__nav-link:nth-child(4) {
     margin-right: 39px;
 }
+
 /* WORK → CONTACT */
 .header__nav-link:last-child {
     margin-right: 30зч;
@@ -256,3 +260,116 @@ body {
 }
 
 
+/*  */
+.services {
+    margin-bottom: 115px;
+}
+
+.services__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+}
+
+.services__title {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    color: #48555b;
+    margin: 0 120px 0 0;
+    /* width: 199px;
+    height: 36px; */
+}
+
+.services__title::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    display: block;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.services__text {
+    font-weight: 400;
+    font-size: 11px;
+    /* line-height: 19px; */
+    line-height: 173%;
+    letter-spacing: 0.02em;
+    color: #48555b;
+    width: 405px;
+    height: 38px;
+    margin: 0;
+    padding: 0;
+}
+
+.services__button {
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+
+    font-weight: 700;
+    font-size: 13px;
+    /* letter-spacing: 0.04em; */
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 0;
+}
+
+.services__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__item {
+    max-width: 295px;
+    margin-right: 28px;
+    padding: 38px 19px 39px 23px;
+    border: 1px solid #e6e6e6;
+}
+
+.services__item:nth-child(3) {
+    margin-right: 0;
+}
+
+
+
+.services__icon {
+    /* width: 65px;
+    height: 75px; */
+
+}
+
+
+
+.services__name {
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #48555b;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.services__description {
+    font-weight: 400;
+    font-size: 13px;
+    /* line-height: 23px; */
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+.services__icon--project {}
+
+.services__icon--audit {}
+
+.services__icon--factory {}
